@@ -1,5 +1,5 @@
 function findMatching(drivers, name) {
-  function nameFilter(name){
-    return 
-  }
+  return drivers.filter(function(driver) {
+    return driver.toUpperCase() === name.toUpperCase();
+  })
 }
